@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#b{
+    height: 200px;
+    margin-top: -125px;
+    margin-left: 600px;
+    margin-right: 100px;
+    width: 6000px; 
+    float: right;
+}
+#a{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 1350px;
+    height: 150px;
+    background: aliceblue;
+}
+#a1{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    cursor: pointer;
+}
+.squarea1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+}
+#a2{
+    position: absolute;
+    top: 190px;
+    left: 480px;
+}
+.squearea2{
+    position: absolute;
+    top: 0px;
+    left:0px ;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index:4 ;
+}
+#a3{
+    position: absolute;
+    top: 190px;
+    left: 940px;
+}
+.squearea3{
+    position: absolute;
+    top: 0px;
+    left:0px ;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index:4 ;
+}
+#a4{
+    position: absolute;
+    top: 650px;
+    left: 30px;
+}
+.squearea4{
+    position: absolute;
+    top: 0px;
+    left:0px ;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index:4 ;
+}
+#a5{
+    position: absolute;
+    top: 650px;
+    left: 480px;
+}
+.squearea5{
+    position: absolute;
+    top: 0px;
+    left:0px ;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index:4 ;
+}
+#a6{
+    position: absolute;
+    top: 650px;
+    left: 940px;
+}
+.squearea6{
+    position: absolute;
+    top: 0px;
+    left:0px ;
+    width: 370px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    z-index:4 ;
+}
+#a7{
+    position: absolute;
+    top: 1110px;
+    left: 30px;
+}
+#a8{
+    position: absolute;
+    top: 1110px;
+    left: 480px;
+}
+#a9{
+    position: absolute;
+    top: 1110px;
+    left: 940px;
+}
+#a10{
+    position: absolute;
+    top: 1575px;
+    left: 30px;
+}
+#a11{
+    position: absolute;
+    top: 1760px;
+    left: 480px;
+}
+#a12{
+    position: absolute;
+    top: 1760px;
+    left:940px;
+}
+#losung{
+    position: absolute;
+    float: right;
+    top: 390px;
+    left: 98%;
+}
+.text{
+    font-size: 25px;
+    font-family:arial;
+    font-weight: 700px;
+
+}
+#text1{
+    position: absolute;
+    top: 475px;
+    left: 50px;
+    width: 270px;
+    z-index: 5;
+    font-family: 'Times New Roman', Times, serif;
+}
+#text11{
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+
+}
+#text2{
+    position: absolute;
+    top: 475px;
+    left: 500px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text22{
+    position: absolute;
+    top: 570px;
+    left:755px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text3{
+    position: absolute;
+    top: 472px;
+    left: 960px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text33{
+    position: absolute;
+    left: 1210px;
+    top: 570px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text4{
+    position: absolute;
+    top: 935px;
+    left: 50px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text44{
+    position: absolute;
+    top: 1040px;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text5{
+    position: absolute;
+    top: 935px;
+    left: 500px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text55{
+    position: absolute;
+    top: 1040px;
+    left: 755px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text6{
+    position: absolute;
+    top: 935px;
+    left: 960px;
+    width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#text66{
+    position: absolute;
+    top: 1040px;
+    left: 1210px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#name{
+    font-size: 107px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+}
+#nam{
+    font-size: 100px;
+    position: absolute;
+    top: 15px;
+    left: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#line{
+    width: 5px;
+    height: 150px;
+    position: absolute;
+    left: 670px;
+    background: rgb(0, 0, 0);
+}
+#immg1{
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 100px;
+    z-index: 5;
+}
+text{
+    font-family: 'Times New Roman', Times, serif;
+}
