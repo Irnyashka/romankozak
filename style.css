@@ -140,6 +140,7 @@ html {
     top: 210px; 
     left: 1050px;
     cursor: pointer;
+    z-index: -5;
 }
 .circlec {
     position: absolute;
@@ -152,7 +153,6 @@ html {
     border-radius: 50px;
     background:rgb(48, 43, 43);
     float: right;
-    float: right;
     cursor: pointer;
 }
 .circled {
@@ -160,7 +160,7 @@ html {
     width: 100px;
     height: 100px;
     -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    -moz-border-radius: 0px;
     border-radius: 50px;
     background:rgb(228, 227, 227);
     top: 210px; 
@@ -213,7 +213,10 @@ html {
     border-bottom: rgba(190, 190, 186, 0);
     border-color: rgba(245, 245, 220, 0);
     border-width: 0px;
+    z-index: 1;
     cursor: pointer;
+    height: 2px;
+
 }
 #aa2{
     position: absolute;
@@ -221,6 +224,10 @@ html {
     left: 15px;
     border:rgb(48, 43, 43) ;
     cursor: pointer;
+    z-index: 1;
+    height: 2px;
+    position: absolute;
+    
 }
 #aa3{
     position: absolute;
@@ -229,6 +236,8 @@ html {
     border-width: 0px;
     border: aliceblue;
     cursor: pointer;
+    z-index: 1;
+    height: 2px;
 }
 #aa4{
     position: absolute;
@@ -236,6 +245,7 @@ html {
     left: 15px;
     border-width: 0px;
     cursor: pointer;
+    height: 2px;
 }
 #aa5{
     position: absolute;
@@ -243,6 +253,7 @@ html {
     left: 15px;
     border-width: 0px;
     cursor: pointer;
+    height: 2px;
 }
 #a{
     position: absolute;
@@ -258,3 +269,15 @@ html {
     left: 360px;
     top: 10px;
 }
+#grid { 
+    display: grid;
+    grid-template-rows: 450px 450px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+    }
+#grid > div {
+    font-size: 5vw;
+    padding: .5em;
+    background: white;
+    text-align: center;
+  }
